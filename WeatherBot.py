@@ -11,7 +11,6 @@ class WeatherBot:
     # Получение URL и обозначение headers
     URL_kr = 'https://yandex.ru/pogoda/?lat=55.8310051&lon=37.33039856'
     URL_msc = 'https://yandex.ru/pogoda/?via=hl'
-    # headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'}
     headers = {
         'User-Agent': 'YOUR HEADERS'}
 
